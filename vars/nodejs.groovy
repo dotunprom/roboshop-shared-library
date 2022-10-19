@@ -34,10 +34,10 @@ def call() {
       }
 
 
-      stage('Sonar Checks') {
+      stage('SonarCheck') {
         steps {
           script {
-            sonarChecks()
+            sonarCheck()
           }
         }
       }
